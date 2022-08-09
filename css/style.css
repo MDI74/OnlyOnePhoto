@@ -1,0 +1,108 @@
+.wrapper{
+    min-height: 100vh;
+    overflow: hidden;
+    
+    display:flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.content{
+    flex: 1 1 auto;
+}
+
+.hi{
+    background: #5C9B1D;
+    height: 140px;
+}
+.text-head{
+    font-size: 64px;
+    color: #F1EBEB;
+    font-family: Rosario;
+}
+.block_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_reg{
+    width: 155px;
+    height: 60px;
+    border-radius: 30px;
+}
+.button_log{
+    width: 155px;
+    height: 60px;
+    border-radius: 30px;
+}
+.footer {
+    background: #5C9B1D;
+}
+.footer_row{
+    display:flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.elem_reg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 450px;
+    height: 330px;
+    background: #5C9B1D;
+}
+.form-control{
+    width: 400px;
+    margin-top: 15px;
+    height: 30px;
+}
+.button_form{
+    width: 150px;
+    height: 35px;
+    margin-top: 15px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.elem_log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 450px;
+    height: 250px;
+    background: #5C9B1D;
+}
+.content_body{
+    margin-top:10px;
+}
+.image_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.image{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+}
